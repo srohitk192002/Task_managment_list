@@ -1,0 +1,8 @@
+<div class="task-form">
+    <mat-form-field appearance="fill" class="w-full">
+      <mat-label>Task Name</mat-label>
+      <input matInput [(ngModel)]="taskName" placeholder="Enter task" class="w-full p-2 border border-gray-300 rounded-md">
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="addTask()" class="mt-4 w-full bg-blue-500 text-white font-semibold py-2 rounded-lg hover:bg-blue-600">Add Task</button>
+  </div>
+  
